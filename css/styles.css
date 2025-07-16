@@ -22,6 +22,7 @@
 	width: 100dvw;
 	height: 100dvh;
 	margin-bottom: 120px;
+	overflow-y: auto;
 	padding: 10px;
 	background-color: var(--primary-color);
 	z-index: 3;
