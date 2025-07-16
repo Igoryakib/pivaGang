@@ -1,0 +1,54 @@
+@import "reset.css";
+
+:root {
+	--primary-color: #1b1c17;
+}
+
+.piva__header {
+	width: 100dvw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--primary-color);
+	padding: 10px;
+}
+
+.header__logo {
+	width: 175px;
+	height: 175px;
+}
+
+.piva__main {
+	width: 100dvw;
+	height: 100dvh;
+	margin-bottom: 120px;
+	padding: 10px;
+	background-color: var(--primary-color);
+	z-index: 3;
+}
+
+.main__section {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	z-index: 3;
+}
+
+.section__card {
+	z-index: 3;
+}
+
+.piva__footer {
+	width: 100dvw;
+	position: relative;
+	z-index: 1;
+}
+
+.footer_img {
+	width: 100%;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	z-index: 1;
+}
